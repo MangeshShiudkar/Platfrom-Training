@@ -1,0 +1,44 @@
+[
+    {
+        "id": "2",
+        "title": "Getting Started with iOS",
+        "image": "sample_article_image",
+        "content": "iOS development allows us to create beautiful, responsive native applications for millions of iPhone and iPad users worldwide. The ecosystem relies heavily on Xcode, Apple's integrated development environment, which bundles together code editors, debugging tools, asset catalogs, and device simulators. When embarking on your iOS engineering journey, you will explore core framework principles ranging from the application lifecycle and memory management to networking protocols and data persistence layers. Understanding how to build layouts that scale gracefully across different screen sizes—from the compact iPhone SE to the expansive iPad Pro—is a foundational skill. By combining clean architecture patterns like MVVM with Apple's powerful system APIs, developers can craft world-class software that takes full advantage of advanced device hardware."
+    },
+    {
+        "id": "3",
+        "title": "Mastering Swift Data",
+        "image": "sample_article_image",
+        "content": "SwiftData makes it incredibly easy to persist application data using entirely declarative code, completely eliminating the need for complex, boilerplate-heavy Core Data setups. By using standard Swift macros like @Model, you can instantly turn any standard Swift class into a fully functional data schema that is automatically tracked by a background persistent container. You can easily query, filter, sort, and sync your data models with CloudKit across all a user's devices with minimal configuration. SwiftData handles underlying database migrations, relationships, and structural validation seamlessly behind the scenes. This framework is explicitly designed to co-exist with SwiftUI's reactive bindings, ensuring that your user interface automatically refreshes the exact millisecond your underlying database state changes."
+    },
+    {
+        "id": "4",
+        "title": "Introduction to Combine",
+        "image": "sample_article_image",
+        "content": "The Combine framework provides a declarative, reactive Swift API for processing values and events over time. By unifying asynchronous operations, Combine allows developers to handle complex asynchronous streams—such as network responses, user input events, and key-value observation notifications—efficiently and cleanly. It works by utilizing three core pillars: Publishers, which emit values over time; Subscribers, which receive and act on those values; and Operators, which let you transform, filter, map, and throttle data streams mid-flight. By adopting Combine, you can move away from deeply nested completion handler callbacks (colloquially known as callback hell) and replace them with linear, highly readable structural pipelines that radically simplify error handling and state synchronization."
+    },
+    {
+        "id": "5",
+        "title": "Building for watchOS",
+        "image": "sample_article_image",
+        "content": "Designing software for Apple Watch requires an entirely unique engineering mindset centered on brief interactions and timely notifications. Learn how to design compact, glanceable experiences optimized specifically for the wrist, where user attention spans are measured in split seconds rather than minutes. watchOS development focuses heavily on rapid user interactions, rich push notifications, and high-utility complications that sit directly on the active watch face. Performance optimization is absolutely paramount here; applications must load instantaneously and run efficiently to preserve highly constrained battery life. By using SwiftUI's specialized watchOS layout containers and integrating framework tools like WorkoutKit or HealthKit, you can create immersive, fitness-focused applications that blend perfectly into a user's daily habits."
+    },
+    {
+        "id": "6",
+        "title": "Concurrency in Swift",
+        "image": "sample_article_image",
+        "content": "Modern Swift utilizes structured concurrency features like async/await, Tasks, and Actors to write exceptionally safe, highly readable asynchronous code. Historically, handling background threads in iOS meant dealing with complex grand central dispatch queues, which frequently led to memory leaks, race conditions, and hard-to-track UI freezing. With modern Swift concurrency, the compiler itself steps in to validate thread safety. By defining critical shared states within an Actor, the system guarantees that only one thread can modify that data block at any given moment, completely preventing data races. Utilizing async/await structures allows multi-threaded, asynchronous network requests to be written sequentially, reading identically to clean, synchronous top-to-bottom code."
+    },
+    {
+        "id": "7",
+        "title": "Creating Interactive Widgets",
+        "image": "sample_article_image",
+        "content": "WidgetKit lets you bring your app's core value and highest-priority utility directly onto the iOS Home Screen, Lock Screen, or macOS desktop. Thanks to recent framework upgrades, widgets are no longer static, read-only displays that merely act as launch shortcuts. Users can now trigger immediate app actions instantly through interactive buttons and toggles without ever opening the parent application. Whether it is marking a task complete, pausing a podcast track, or turning off a smart lightbulb, these interactive timelines run smoothly on background frames. Building high-performance widgets involves mastering App Intents and structural timeline providers, ensuring your widget refreshes its content efficiently without draining system resources or violating background processing limits."
+    },
+    {
+        "id": "8",
+        "title": "Mastering Swift Data",
+        "image": "sample_article_image",
+        "content": "SwiftData makes it incredibly easy to persist application data using entirely declarative code, completely eliminating the need for complex, boilerplate-heavy Core Data setups. By using standard Swift macros like @Model, you can instantly turn any standard Swift class into a fully functional data schema that is automatically tracked by a background persistent container. You can easily query, filter, sort, and sync your data models with CloudKit across all a user's devices with minimal configuration. SwiftData handles underlying database migrations, relationships, and structural validation seamlessly behind the scenes. This framework is explicitly designed to co-exist with SwiftUI's reactive bindings, ensuring that your user interface automatically refreshes the exact millisecond your underlying database state changes."
+    }
+]
